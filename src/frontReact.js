@@ -76,4 +76,4 @@ const FrondEnd = () => {
   )
 }
 
-ReactDOM.render( FrondEnd, document.getElementById('root'));
+ReactDOM.render(FrondEnd, document.getElementById('root'));
