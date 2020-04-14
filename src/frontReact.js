@@ -46,16 +46,19 @@ const FrondEnd = () => {
             <input 
                 type="number" placeholder="ELAPSE TIME" 
                 name="data-time-to-elapse" required
+                data-time-to-elapse
                 onChange={(event) => setTimeToElapse(event.target.value)} 
             />
             <input 
                 type="number" placeholder="REPORTED CASES"
                 name="data-reported-cases" required
+                data-reported-cases
                 onChange={(event) => setReportedCases(event.target.value)}
             />
             <input 
                 type="number" placeholder="TOTAL HOSPITAL BEDS"
                 name="data-total-hospital-beds" required
+                data-total-hospital-beds
                 onChange={(event) => setTotalHospitalBeds(event.target.value)}
             />
                 

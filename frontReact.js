@@ -79,6 +79,7 @@ var FrondEnd = function FrondEnd() {
             React.createElement('input', {
                 type: 'number', placeholder: 'ELAPSE TIME',
                 name: 'data-time-to-elapse', required: true,
+                'data-time-to-elapse': true,
                 onChange: function onChange(event) {
                     return setTimeToElapse(event.target.value);
                 }
@@ -86,6 +87,7 @@ var FrondEnd = function FrondEnd() {
             React.createElement('input', {
                 type: 'number', placeholder: 'REPORTED CASES',
                 name: 'data-reported-cases', required: true,
+                'data-reported-cases': true,
                 onChange: function onChange(event) {
                     return setReportedCases(event.target.value);
                 }
@@ -93,6 +95,7 @@ var FrondEnd = function FrondEnd() {
             React.createElement('input', {
                 type: 'number', placeholder: 'TOTAL HOSPITAL BEDS',
                 name: 'data-total-hospital-beds', required: true,
+                'data-total-hospital-beds': true,
                 onChange: function onChange(event) {
                     return setTotalHospitalBeds(event.target.value);
                 }
