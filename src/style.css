@@ -1,0 +1,59 @@
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #444;
+}
+
+body {
+    background: #586c81b6;
+}
+
+#root {
+    max-width: fit-content;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+[type="number"],
+select,
+button {
+    display: inline-block;
+    -webkit-appearance: none;
+    margin: 3px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    background: #629edfcc;
+    color: white;
+    border: 2px solid #3e6b9cc7;
+    margin-top: 20px;
+    width: 100%;
+}
+
+[type="number"] {
+    width: 100%;
+}
+
+[type="number"]:active,
+[type="number"]:focus {
+    outline: 0;
+    border: 2px solid #007bff;
+}
