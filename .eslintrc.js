@@ -13,12 +13,8 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    'parser': 'babel-eslint',
-    'ecmaVersion': 2018,
-    "ecmaFeatures": {
-      "jsx": true,
-      "modules": true
-    }
+    ecmaVersion: 2018,
+    sourceType: 'module'
   },
   rules: {
     "comma-dangle": ["error", "never"],
